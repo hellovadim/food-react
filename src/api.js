@@ -1,4 +1,3 @@
-  
 import { API_URL } from './config';
 
 const getMealById = async (mealId) => {

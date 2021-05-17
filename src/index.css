@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 nav{
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .content{
   min-height: calc(100vh - 134px);
