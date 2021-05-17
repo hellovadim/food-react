@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  background-color: rgba(71, 172, 155, 0.794);
-  font-family: 'Inconsolata', monospace;
+  background-color: rgba(207, 170, 46, 0.733);
+  font-family: "Inconsolata", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-nav{
+nav {
   padding: 0 2rem;
 }
-.content{
+.content {
   min-height: calc(100vh - 134px);
   padding: 1.5rem;
 }
@@ -23,4 +23,12 @@ nav{
 }
 .card-content {
   flex-grow: 1;
+}
+img,
+iframe {
+  max-width: 100%;
+}
+iframe {
+  width: 600px;
+  height: 350px;
 }
